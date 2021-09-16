@@ -1,0 +1,12 @@
+.table-bordered
+{
+	border: 0.5px solid #054dba;
+}	
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+
+.table-bordered > thead > tr > td,
+
+.table-bordered > tfoot > tr > td {
+   border: 0.5px solid #054dba;
+}

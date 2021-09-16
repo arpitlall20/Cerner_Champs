@@ -1,0 +1,155 @@
+div#spinner
+{
+    display: none;
+    width:110px;
+    height: 110px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background:url(../img/loader.gif) no-repeat center ;
+    text-align:center;
+    padding:10px;
+    border:none;
+	border-radius:5px;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index:10000;
+    overflow: auto;
+}
+.markerwithlabel{
+	color: red;
+	background-color:white;
+	font-family:"Lucida Grande","Arial",sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+	width:78px;
+	border:2px solid black;
+	white-space:nowrap;
+}
+.infoWindowContent{
+	font-size:10px!important;
+	border-top:1px solid #ccc;
+	padding-top:5px;
+}
+#map,#waypointMap,#map-canvas{ 
+	height:550px;
+	width:100%;
+}
+#waypointMap{
+	height:520px;
+}
+.mapDiv, .emptyResponse {
+	width:100%;
+	height:270px;
+	margin-bottom:10px;
+	background-color:#ecf0f5;
+}
+.emptyResponse{
+	text-align:center;
+	color:orange;
+	padding-top:25%; 
+	background-color:#FFFFFF;
+	margin:0; 
+	font-weight:bold;
+}
+.no-pad,.pad-0{
+	padding:0px;
+}
+.box-body{
+	background-color:#FFFFFF;
+}
+td>.btn{
+	padding:0 5px;
+}
+.pagination>.active>a{
+	border-color:#278dd9;
+	background-color:#278dd9;
+}
+.table-bordered-bottom{
+	border-bottom:thin solid #f4f4f4;
+}
+#dataHolder .box-header{
+	height:40px;
+	padding:10px;
+}
+#dataHolder .box-header>.box-tools{
+	left:10px;
+	top:12px;
+}
+.right{
+	text-align:right;
+}
+.hide{
+	display:none;
+}
+.show{
+	display:block;
+}
+.pac-container{z-index:10000;}
+.controls {
+  margin-top: 6px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 0px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 150px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+a{
+	cursor:pointer;
+}
+.content-header>h1>small{
+	color:#278dd9;
+	font-weight:500;
+}
+
+@media (max-width: 768px)
+{
+	.box-search
+	{
+		padding-right:10px;
+		padding-left:10px;
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+}
+
+.box_line{
+	
+	border: 1px solid #d2d6de;
+	background: white;
+	
+}
